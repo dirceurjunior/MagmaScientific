@@ -3,8 +3,8 @@
     
    <!-- DataSource JNDI -->
    <resource-ref>
-      <description>DataSource MagmaDoctorDB</description>
-      <res-ref-name>jdbc/MagmaDoctorDB</res-ref-name>
+      <description>DataSource MagmaScientificDB</description>
+      <res-ref-name>jdbc/MagmaScientificDB</res-ref-name>
       <res-type>javax.sql.DataSource</res-type>
       <res-auth>Container</res-auth>
    </resource-ref>
