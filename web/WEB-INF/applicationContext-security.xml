@@ -20,7 +20,7 @@
    <authentication-manager>
       <authentication-provider>
          <jdbc-user-service 
-            data-source-ref="MagmaDoctorDataSource" 
+            data-source-ref="MagmaScientificDataSource" 
             authorities-by-username-query="SELECT u.login, p.permissao 
                                                 FROM usuario u, usuario_permissao p 
                                                 WHERE u.codigo = p.usuario 
